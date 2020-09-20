@@ -16,7 +16,7 @@
 
 LOCAL_PATH := device/samsung/j4primelte
 
-# Inherit from common msm8917-common
+# # Inherit from common msm8917-common
 -include device/samsung/msm8917-common/BoardConfigCommon.mk
 
 # Architecture
@@ -35,7 +35,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
-
+#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb-s
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j4primelte
